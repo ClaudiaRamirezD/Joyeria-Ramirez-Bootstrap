@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.slide {
+    margin-top: 1rem;
+}
+
+.slide img {
+    height: 25vh;
+}
+
+html {
+    color: #89c2d9;
+}
+
+
+
+
+body {
+    font-family: "Raleway", sans-serif, Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.hero {
+    background: radial-gradient(circle, rgba(28, 48, 93, 1) 0%, rgba(3, 13, 34, 1) 100%);
+    color: #89c2d9;
+    position: fixed;
+    width: 100%;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: .5rem;
+    margin-bottom: 0%;
+
+}
+
+.menu li a:hover {
+    color: #41ead4;
+}
+
+
+main {
+    padding-top: 5rem;
+    background-color: blue;
+    background-image: url(../images/moroccan-flower-dark.png);
+    width: 100vw;
+}
+
+.carrusel {
+    margin-top: 4rem;
+    margin-bottom: .5rem;
+}
+
+.cintillo {
+    font-size: .75rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 12vh;
+    background: rgb(28, 48, 93);
+    background: radial-gradient(circle, rgba(28, 48, 93, 1) 0%, rgba(3, 13, 34, 1) 100%);
+    color: #a9d6e5;
+    list-style: none;
+
+}
+
+.cintillo li {
+    flex: 1 1 0;
+    text-decoration: none;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.fotos {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.fotos img {
+    width: 280px;
+    height: 280px;
+    padding: 1.5rem;
+}
+
+footer {
+    background: rgb(28, 48, 93);
+    background: radial-gradient(circle, rgba(28, 48, 93, 1) 0%, rgba(3, 13, 34, 1) 100%);
+    color: #89c2d9;
+    width: 100vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contenedor-footer {
+    margin-top: .75rem;
+    display: grid;
+    row-gap: 3px;
+    font-size: 1rem;
+}
+
+.mail-tel {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+
+.sociales {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+
+
+
+.titulo-final {
+    text-align: center;
+    font-size: .5rem;
+    margin: 10px 0 0 0;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 5% 5%;
+}
+
+.contenedor-formulario {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    height: 60vh;
+    background-image: url(../images/moroccan-flower-dark.png);
+    color: #89c2d9;
+    font-size: 20px;
+
+}
+
+.contenedor-legend {
+    text-align: center;
+    padding: 1rem;
+    background-image: url(../images/pyramid.gif);
+}
+
+.contenedor-botones {
+    padding-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #89c2d9;
+}
+
+a:hover {
+    color: #41ead4;
+    transform: scale(1.1);
+    font-weight: bold;
+
+
+}
+
+img:hover {
+    transform: scale(1.1);
+
+}
+
+.boton {
+    margin-top: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .menu {
+        font-size: 1.5rem;
+    }
+
+    .slide img {
+        height: 30vh;
+    }
+
+    .carrusel {
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .cintillo {
+        font-size: 1rem;
+    }
+
+    .fotos img {
+        width: 340px;
+        height: 340px;
+        
+    }
+
+    .sociales {
+
+        font-size: 1.8rem;
+    }
+
+    .contenedor-footer {
+        display: grid;
+        font-size: 1.3rem;
+        grid-template-columns: 1fr 1fr;
+
+
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1024px) {
+    .top-header {
+        padding: 1rem;
+    }
+
+    .slide img {
+        height: 50vh;
+    }
+
+    .carrusel {
+        margin-top: 6rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+    .contenedor-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .titulo-final {
+        font-size: 1rem;
+
+    }
+
+    .contenedor-formulario {
+        margin-top: 2rem;
+    }
+
+
+
+}
