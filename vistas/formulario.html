@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <script src="https://kit.fontawesome.com/626aa2cec3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+     <header class="hero">
+    <div class="top-header">
+      <div class="telefono">
+        <a href="#telefono"><i class="fas fa-phone-alt"></i></a></i> 
+        
+        
+      </div>
+
+      <div class="usuario">
+        <i class="fas fa-user"></i>
+        <em><a href="./formulario.html"> Iniciar sesión</a></em>
+        <i class="fas fa-shopping-cart"></i>
+        <em>Compras</em>
+      </div>
+    </div>
+
+    <h1>
+      Nombre Compañia
+    </h1>
+    <nav class="navegacion">
+      <ul class="menu">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./anillos.html">Anillos</a></li>
+        <li><a href="./aretes.html">Aretes</a></li>
+        <li><a href="./collares.html">Collares</a></li>
+        <li><a href="./pulseras.html">Pulseras</a></li>
+        <li><a href="./otros.html">Otros</a></li>
+      </ul>
+    </nav>
+  </header>
+    <main>
+        <form action="" method="get" enctype="text/plain" class="contenedor-formulario">
+            <fieldset class="contenedor-legend">
+                <legend>Información Personal</legend>
+                <label id="userSex">SEXO:</label>
+                <input type="radio" name="campoUserSex" id="userSex" value="Masculino" />Hombre
+                <input type="radio" name="campoUserSex" id="userSex" value="Femenino" />Mujer
+                <div>
+                    <input type="text" name="" id="" placeholder="Introduzca su nombre" />
+                </div>
+                <div><input type="password" name="" id="" placeholder=Password"></div>
+                <div>
+                    <input type="email" name="" id="" placeholder="E-mail" />
+                </div>
+                <div>
+                    <input type="number" name="" id="" placeholder="Edad" />
+                </div>
+                <div>
+                    <label for="condition">Terminos y Condiciones</label>
+                    <input type="checkbox" name="campoCondition" id="condition" required />
+                </div>
+                <div>
+                    <label for="tallas" required>Ingresa tu talla</label>
+                    <select name="campoYserTalles" id="talles">
+                        <option value="" disabled selected>OPCIONES</option>
+                        <option value="LARGE">LARGE</option>
+                        <option value="MEDIUM">MEDIUM</option>
+                        <option value="SMALL">SMALL</option>
+                    </select>
+                </div>
+                <div class="contenedor-botones">
+                    <input type="submit" value="REGISTRAR" />
+                    <input type="submit" value="YA TENGO CUENTA" />
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+    <div class="contenedor-footer">
+      <div class="contactanos">
+
+        <div class="titulo-footer">
+          <h4>Contáctanos</h4>
+        </div>
+
+        <div class="mail">
+          <i class="fas fa-envelope"></i>
+          <em>clau8812@gmail.com</em>
+        </div>
+
+        <div class="tel">
+          <i class="fas fa-phone-alt" id="telefono"></i>
+          <em>800 766 4563</em>
+        </div>
+
+
+        <div class="sociales">
+          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+
+      <div class="contenedor-mapa">
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15055.430464342277!2d-99.13737981271971!3d19.375316919405314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe4e3b411333%3A0x90a4f64e61b3f6b4!2sLa%20Farfalla%20Pizzeria%20y%20Mas!5e0!3m2!1sen!2smx!4v1644047382577!5m2!1sen!2smx"
+          width="80%" height="100vh" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    <h2 class="titulo-final">&copy; Claudia Ramírez</h2>
+  </footer>
+</body>
+
+</html>

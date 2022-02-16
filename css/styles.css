@@ -189,12 +189,30 @@ a:hover {
 
 img:hover {
     transform: scale(1.1);
+    overflow: hidden;
 
 }
 
 .boton {
     margin-top: 2rem;
 }
+
+.barra-navegacion {
+    width: 100vw;
+
+}
+
+.vistas {
+    padding: 2rem;
+}
+
+.carrusel img {
+
+    object-fit: cover;
+
+}
+
+
 
 @media only screen and (min-width: 768px) {
     .menu {
@@ -217,7 +235,7 @@ img:hover {
     .fotos img {
         width: 340px;
         height: 340px;
-        
+
     }
 
     .sociales {
