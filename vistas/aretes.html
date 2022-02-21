@@ -11,13 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/626aa2cec3.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png">
+    <link rel="manifest" href="../favicons/site.webmanifest">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Aretes</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-info barra-navegacion">
+        <nav class="navbar navbar-expand-lg " id="barra-navegacion">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Nomre Compañia</a>
                 <div class="lado-derecho">
@@ -29,27 +33,32 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                <a id="color-nav" class="nav-link active" aria-current="page"
+                                    href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./anillos.html">Anillos</a>
+                                <a id="color-nav" class="nav-link active" aria-current="page"
+                                    href="./anillos.html">Anillos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./collares.html">Collares</a>
+                                <a id="color-nav" class="nav-link active" aria-current="page"
+                                    href="./collares.html">Collares</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./pulseras.html">Pulseras</a>
+                                <a id="color-nav" class="nav-link active" aria-current="page"
+                                    href="./pulseras.html">Pulseras</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./otros.html">Otros</a>
+                                <a id="color-nav" class="nav-link active" aria-current="page"
+                                    href="./otros.html">Otros</a>
                             </li>
                             <form class="d-flex">
                                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
+                                <button class="btn btn-search" type="submit">Search</button>
                             </form>
                             <div class="usuario">
                                 <a href="./formulario.html"> <i class="fas fa-user"></i></a>
-                                <i class="fas fa-shopping-cart"></i>   
+                                <i class="fas fa-shopping-cart"></i>
                             </div>
                         </ul>
                     </div>
@@ -61,33 +70,28 @@
         <section class="portafolio">
             <div class="container">
                 <div class="d-flex justify-content-center">
-                    <button class="btn btn-outline-info"> <a href="./promociones.html"> Promociones</a></button>
+                    <button id="color-boton" class="btn btn-outline-info"> <a href="./promociones.html"
+                            id="color-boton"> Promociones</a></button>
                 </div>
             </div>
             <div class="container fotos d-flex justify-content-center">
                 <div class="row">
                     <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-
                         <img src="../images/arete1.jpg" alt="arete" class="rounded-circle ">
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-
                         <img src="../images/arete2.jpg" alt="arete" class="rounded-circle">
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-
                         <img src="../images/arete7.png" alt="arete" class="rounded-circle">
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-
                         <img src="../images/arete9.jpg" alt="arete" class="rounded-circle">
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-
                         <img src="../images/arete5.jpg" alt="arete" class="rounded-circle">
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-
                         <img src="../images/arete6.jpg" alt="arete" class="rounded-circle">
                     </div>
                 </div>
@@ -97,31 +101,24 @@
     <footer>
         <div class="contenedor-footer">
             <div class="contactanos">
-
                 <div class="titulo-footer">
                     <h4>Contáctanos</h4>
                 </div>
-
                 <div class="mail">
                     <i class="fas fa-envelope"></i>
                     <em>clau8812@gmail.com</em>
                 </div>
-
                 <div class="tel">
                     <i class="fas fa-phone-alt" id="telefono"></i>
                     <em>800 766 4563</em>
                 </div>
-
-
                 <div class="sociales">
                     <i class="fab fa-whatsapp"></i>
                     <i class="fab fa-facebook"></i>
                     <i class="fab fa-instagram"></i>
                 </div>
             </div>
-
             <div class="contenedor-mapa">
-
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15055.430464342277!2d-99.13737981271971!3d19.375316919405314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe4e3b411333%3A0x90a4f64e61b3f6b4!2sLa%20Farfalla%20Pizzeria%20y%20Mas!5e0!3m2!1sen!2smx!4v1644047382577!5m2!1sen!2smx"
                     width="80%" height="100vh" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
