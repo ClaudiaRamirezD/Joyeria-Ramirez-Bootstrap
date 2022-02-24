@@ -1,0 +1,19 @@
+@import "./variables";
+.contenedor-formulario {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    height: 60vh;
+    background-image: url(../images/moroccan-flower-dark.png);
+    color: $color-azulclaro;
+    font-size: 20px;
+    margin-top: 2rem;
+
+}
+
+.contenedor-legend {
+    text-align: center;
+    padding: 1rem;
+    background-image: url(../images/pyramid.gif);
+}

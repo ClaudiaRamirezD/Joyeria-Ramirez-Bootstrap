@@ -1,0 +1,73 @@
+@import "./variables";
+
+header {
+    background: $color-azulfuerte;
+    color: $color-azulclaro;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
+
+    #barra-navegacion {
+        width: 100vw;
+        background: $color-azulfuerte
+
+    }
+
+    #color-nav {
+        color: $color-azulclaro;
+
+    }
+
+    #color-nav:hover {
+        color: $color-turquesa;
+    }
+
+    #color-boton {
+        color: $color-azulclaro;
+
+    }
+
+    #color-boton :hover {
+        color: rgba(28, 48, 93, 1);
+        transition: .4s;
+
+    }
+
+    .btn-search {
+        color: $color-azulclaro;
+        border-color: $color-azulclaro;
+
+    }
+
+    .btn-search:hover {
+        color: #fff;
+        background-color: $color-turquesa;
+        border-color: $color-turquesa;
+    }
+
+    .top-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+    }
+
+
+    h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        padding: .5rem;
+        margin-bottom: 0%;
+
+    }
+
+    .menu li a:hover {
+        color: $color-turquesa;
+    }
+}

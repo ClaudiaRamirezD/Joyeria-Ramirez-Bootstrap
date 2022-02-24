@@ -1,0 +1,31 @@
+@import "./variables";
+footer {
+    background: rgb(28, 48, 93);
+    background: $color-azulfuerte;
+    color: $color-azulclaro;
+    width: 100vw;
+    overflow: hidden;
+    text-align: center;
+    .contenedor-footer {
+        margin-top: .75rem;
+        display: grid;
+        row-gap: 3px;
+        font-size: 1rem;
+    }
+    .mail-tel {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1rem;
+    }
+    .sociales {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.5rem;
+    }
+    .titulo-final {
+        text-align: center;
+        font-size: .5rem;
+        margin: 10px 0 0 0;
+    }
+}
+

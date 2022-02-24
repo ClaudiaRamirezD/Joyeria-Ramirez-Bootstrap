@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  color: #89c2d9;
+}
+
+body {
+  font-family: "Raleway", sans-serif, Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.hero {
+  background: radial-gradient(circle, #1c305d 0%, #030d22 100%);
+  color: #89c2d9;
+  position: fixed;
+  width: 100%;
+}
+
+.hero .top-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+.hero h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.hero .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  padding: .5rem;
+  margin-bottom: 0%;
+}
+
+.hero .menu li a:hover {
+  color: #41ead4;
+}
+/*# sourceMappingURL=main.css.map */

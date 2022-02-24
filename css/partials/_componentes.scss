@@ -1,0 +1,42 @@
+@import "./variables";
+
+a {
+    text-decoration: none;
+    color: $color-azulclaro;
+}
+
+a:hover {
+    color: $color-turquesa;
+    transform: scale(1.3);
+    font-weight: bold;
+}
+
+.contenedor-botones {
+    padding-top: 2rem;
+}
+
+.boton {
+    margin-top: 2rem;
+    
+}
+
+#boton-color {
+    z-index: 1;
+}
+
+#boton-color:hover {
+    background-color: $color-turquesa;
+    border-color: $color-turquesa;
+}
+
+#color-letra-boton {
+    color: $color-turquesa;
+}
+
+#color-letra-boton:hover {
+    color: darkblue;
+}
+
+.vistas {
+    padding: 2rem;
+}

@@ -1,0 +1,16 @@
+@import "./variables";
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    color: $color-azulclaro;
+}
+
+
+body {
+    font-family: "Raleway", sans-serif, Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}

@@ -1,0 +1,90 @@
+@import "./variables";
+
+@media only screen and (min-width: 768px) {
+
+  header .top-header {
+    padding: 1rem 2rem;
+  }
+
+
+  .menu {
+    font-size: 1.5rem;
+  }
+  main{
+    padding-top: 7rem;
+  }
+  main .carrusel {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  main .slide img {
+    height: 35vh;
+  }
+
+
+  .cintillo {
+    font-size: 1rem;
+  }
+
+  .fotos img {
+    width: 340px;
+    height: 340px;
+  }
+
+
+
+  .sociales {
+    font-size: 1.8rem;
+  }
+
+  .contenedor-footer {
+    display: grid;
+    font-size: 1.3rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  footer .titulo-final {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top-header {
+    padding: 1rem;
+  }
+
+  main {
+    padding-top: 4.5rem;
+    padding-bottom: 5rem;
+
+    .cintillo {
+      font-size: 1.2rem;
+    }
+
+    main .slide img {
+      height: 50vh;
+    }
+
+    .carrusel {
+      margin-top: 6rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .contenedor-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .titulo-final {
+    font-size: 1rem;
+  }
+
+  .contenedor-formulario {
+    margin-top: 2rem;
+  }
+
+  footer .titulo-final {
+    font-size: 1rem;
+  }
+}
