@@ -21,47 +21,48 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg" id="barra-navegacion">
+        <nav id="color-nav-vistas" class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Nombre Compañia</a>
-                <div class="lado-derecho">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
-                            <li class="nav-item">
-                                <a id="color-nav" class="nav-link active" aria-current="page"
-                                    href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a id="color-nav" class="nav-link active" aria-current="page"
-                                    href="./anillos.html">Anillos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a id="color-nav" class="nav-link active" aria-current="page"
-                                    href="./aretes.html">Aretes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a id="color-nav" class="nav-link active" aria-current="page"
-                                    href="./pulseras.html">Pulseras</a>
-                            </li>
-                            <li class="nav-item">
-                                <a id="color-nav" class="nav-link active" aria-current="page"
-                                    href="./otros.html">Otros</a>
-                            </li>
-                            <form class="d-flex">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-search" type="submit">Search</button>
-                            </form>
-                            <div class="usuario">
-                                <a href="./formulario.html"> <i class="fas fa-user"></i></a>
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                        </ul>
+                <a id="color-nav-vistas" class="navbar-brand" href="#">Nombre Compañia</a>
+                <button id="hamburguesa" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="centrado-lista" class="navbar-nav .navbar-center me-auto mb-2 mb-lg-0">
+                        <li class="d-flex justify-content-center align-center-item nav-item mx-auto">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link" href="./anillos.html">Anillos</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link" href="./aretes.html">Aretes</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link" href="./collares.html">Collares</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link" href="./pulseras.html">Pulseras</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link" href="./otros.html">Otros</a>
+                        </li>
+                    </ul>
+                    <div class="usuario">
+                        <div class="sesion">
+                            <a href="./formulario.html"><i class="fas fa-user"></i></a>
+                        </div>
+                        <div class="compras">
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+
                     </div>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -69,32 +70,45 @@
     <main class="vistas">
         <section class="portafolio">
             <div class="container">
-                <div class="d-flex justify-content-center">
-                    <button id="color-boton" class="btn btn-outline-info"> <a href="./promociones.html"
-                            id="color-boton"> Promociones</a></button>
-                </div>
+
             </div>
             <div class="container fotos d-flex justify-content-center">
                 <div class="row">
                     <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-                        <img src="../images/collar1.jpg" alt="collar" class="rounded-circle ">
+                        <a href="#">
+                            <img src="../images/collar1.jpg" alt="collar" class="rounded-circle ">
+                        </a>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-                        <img src="../images/collar2.jpg" alt="collar" class="rounded-circle">
+                        <a href="#">
+                            <img src="../images/collar2.jpg" alt="collar" class="rounded-circle">
+                        </a>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-                        <img src="../images/collar3.jpg" alt="collar" class="rounded-circle">
+                        <a href="#">
+                            <img src="../images/collar3.jpg" alt="collar" class="rounded-circle">
+                        </a>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-                        <img src="../images/collar5.jfif" alt="collar" class="rounded-circle">
+                        <a href="#">
+                            <img src="../images/collar5.jfif" alt="collar" class="rounded-circle">
+                        </a>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-                        <img src="../images/collar4.jfif" alt="collar" class="rounded-circle">
+                        <a href="#">
+                            <img src="../images/collar4.jfif" alt="collar" class="rounded-circle">
+                        </a>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-                        <img src="../images/collar6.jfif" alt="collar" class="rounded-circle">
+                        <a href="#">
+                            <img src="../images/collar6.jfif" alt="collar" class="rounded-circle">
+                        </a>
                     </div>
                 </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button id="boton-color" class="btn btn-outline-info"> <a href="./promociones.html"
+                        id="color-letra-boton"> Promociones</a></button>
             </div>
         </section>
     </main>

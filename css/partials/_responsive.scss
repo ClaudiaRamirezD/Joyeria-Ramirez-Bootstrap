@@ -4,31 +4,48 @@
 
   header .top-header {
     padding: 1rem 2rem;
+
   }
 
+  .sesion-index {
+    padding-right: .5rem;
+  }
 
   .menu {
     font-size: 1.5rem;
   }
-  main{
+
+  main {
     padding-top: 7rem;
   }
+
   main .carrusel {
     margin-top: 3rem;
     margin-bottom: 1rem;
+    h5 {
+      font-size: 1.7rem;
+      color: rgb(17, 17, 78);
+      text-shadow: 1px 1px 2px rgb(4, 4, 54),0 0 1em turquoise,0 0 0.2em turquoise;
+    }
   }
+
   main .slide img {
-    height: 35vh;
+    height: 60vh;
   }
 
 
-  .cintillo {
+  main .cintillo {
     font-size: 1rem;
   }
+
 
   .fotos img {
     width: 340px;
     height: 340px;
+  }
+
+  .portafolio {
+    padding-top: 3rem;
   }
 
 
@@ -46,6 +63,11 @@
   footer .titulo-final {
     font-size: 0.8rem;
   }
+
+  .contenedor-formulario {
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -58,17 +80,17 @@
     padding-bottom: 5rem;
 
     .cintillo {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
 
     main .slide img {
-      height: 50vh;
+      height: 74vh;
     }
+  }
 
-    .carrusel {
-      margin-top: 6rem;
-      margin-bottom: 1.5rem;
-    }
+  main .carrusel {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
   }
 
   .contenedor-footer {
@@ -80,11 +102,38 @@
     font-size: 1rem;
   }
 
-  .contenedor-formulario {
-    margin-top: 2rem;
-  }
 
   footer .titulo-final {
     font-size: 1rem;
   }
+
+
+  #centrado-lista {
+    display: flex;
+    margin-left: 25%;
+  }
+
+  header {
+
+    .usuario {
+      padding-right: 1rem;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .sesion {
+      padding-right: 1rem;
+    }
+
+  }
+
+  .contenedor-formulario {
+    padding-top: 7rem;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+
+
+
+
 }

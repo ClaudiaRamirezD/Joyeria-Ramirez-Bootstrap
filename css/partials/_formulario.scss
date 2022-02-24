@@ -1,4 +1,6 @@
 @import "./variables";
+
+
 .contenedor-formulario {
     display: flex;
     flex-flow: column wrap;
@@ -7,7 +9,7 @@
     height: 60vh;
     background-image: url(../images/moroccan-flower-dark.png);
     color: $color-azulclaro;
-    font-size: 20px;
+    font-size: 1rem;
     margin-top: 2rem;
 
 }
@@ -17,3 +19,4 @@
     padding: 1rem;
     background-image: url(../images/pyramid.gif);
 }
+

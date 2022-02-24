@@ -7,11 +7,18 @@ header {
     width: 100%;
     z-index: 2;
 
+    .usuario-index {
+        display: flex;
+    }
+
+    .sesion-index {
+        padding-right: .5rem;
+    }
+
 
     #barra-navegacion {
         width: 100vw;
         background: $color-azulfuerte
-
     }
 
     #color-nav {
@@ -70,4 +77,13 @@ header {
     .menu li a:hover {
         color: $color-turquesa;
     }
+
+    .usuario {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
