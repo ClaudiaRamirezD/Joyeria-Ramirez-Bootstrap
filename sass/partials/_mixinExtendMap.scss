@@ -1,0 +1,76 @@
+@import "./variables";
+
+.gradiante-azul {
+    background: radial-gradient(circle, #1c305d 0%, #030d22 100%);
+    color: #89c2d9;
+    width: 100vw;
+}
+
+.cintillo {
+    @extend .gradiante-azul;
+    font-size: .75rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    list-style: none;
+    padding-left: 0%;
+}
+
+footer {
+    @extend .gradiante-azul;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+@mixin boton-primario {
+    color: $color-turquesa;
+    border-color: $color-turquesa;
+    z-index: 1;
+
+    &:hover {
+        color: darkblue;
+        background-color: $color-turquesa;
+        border-color: $color-azulclaro;
+    }
+}
+
+.btn-outline-success {
+    @include boton-primario;
+}
+
+
+// #color-letra-boton {
+//     color: $color-turquesa;
+// }
+
+// .btn-outline-success {
+//     color: $color-turquesa;
+//     border-color: $color-turquesa;
+// }
+
+// #boton-color {
+//     z-index: 1;
+// }
+
+// #boton-color:hover {
+//     background-color: $color-turquesa;
+//     border-color: $color-turquesa;
+// }
+
+.btn-outline-success:hover {
+    color: rgb(4, 4, 54) ;
+    background-color: $color-turquesa;
+    border-color: $color-azulclaro;
+}
+
+
+
+// #color-letra-boton:hover {
+//     color: darkblue;
+// }
+
+
