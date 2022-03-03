@@ -1,11 +1,5 @@
 @import "./variables";
-footer {
-    background: rgb(28, 48, 93);
-    background: $color-azulfuerte;
-    color: $color-azulclaro;
-    width: 100vw;
-    overflow: hidden;
-    text-align: center;
+
     .contenedor-footer {
         margin-top: .75rem;
         display: grid;
@@ -27,5 +21,5 @@ footer {
         font-size: .5rem;
         margin: 10px 0 0 0;
     }
-}
+
 

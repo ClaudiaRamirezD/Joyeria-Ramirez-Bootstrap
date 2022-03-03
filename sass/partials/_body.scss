@@ -26,29 +26,17 @@ main {
     }
 
 
-    .cintillo {
-        font-size: .75rem;
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        justify-content: space-between;
-        align-items: center;
-        width: 100vw;
-        height: 12vh;
-        background: $color-azulfuerte;
-        color: $color-azulclaro;
-        list-style: none;
-        padding-left: 0%;
-        
-        .cintillo li {
-            flex: 1 1 0;
-            text-decoration: none;
-        }
+
+
+    .cintillo li {
+        flex: 1 1 0;
+        text-decoration: none;
     }
 
 
 
-    
+
+
 
     .contenedor {
         width: 100%;
@@ -68,5 +56,6 @@ main {
         width: 280px;
         height: 280px;
         padding: 1.5rem;
+        
     }
 }
