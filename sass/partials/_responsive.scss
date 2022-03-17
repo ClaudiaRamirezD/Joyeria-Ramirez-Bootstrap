@@ -1,14 +1,16 @@
 @import "./variables";
 
 @media only screen and (min-width: 768px) {
-
   header .top-header {
     padding: 1rem 2rem;
+  }
 
+  header h1 {
+    font-size: 2rem;
   }
 
   .sesion-index {
-    padding-right: .5rem;
+    padding-right: 0.5rem;
   }
 
   .menu {
@@ -21,23 +23,23 @@
 
   main .carrusel {
     margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+
     h5 {
       font-size: 1.7rem;
       color: rgb(17, 17, 78);
-      text-shadow: 1px 1px 2px rgb(4, 4, 54),0 0 1em turquoise,0 0 0.2em turquoise;
+      text-shadow: 2px 1px 2px #040436, 0 0 0.4em yellowgreen,
+        0 0 0.7em turquoise;
     }
   }
 
   main .slide img {
-    height: 60vh;
+    height: 57vh;
   }
-
 
   main .cintillo {
     font-size: 1rem;
   }
-
 
   .fotos img {
     width: 340px;
@@ -47,8 +49,6 @@
   .portafolio {
     padding-top: 3rem;
   }
-
-
 
   .sociales {
     font-size: 1.8rem;
@@ -75,16 +75,20 @@
     padding: 1rem;
   }
 
+  header h1 {
+    font-size: 3rem;
+  }
+
+  main .slide img {
+    height: 77vh;
+  }
+
   main {
     padding-top: 4.5rem;
     padding-bottom: 5rem;
 
     .cintillo {
       font-size: 1.3rem;
-    }
-
-    main .slide img {
-      height: 74vh;
     }
   }
 
@@ -102,11 +106,9 @@
     font-size: 1rem;
   }
 
-
   footer .titulo-final {
     font-size: 1rem;
   }
-
 
   #centrado-lista {
     display: flex;
@@ -114,7 +116,6 @@
   }
 
   header {
-
     .usuario {
       padding-right: 1rem;
       display: flex;
@@ -124,7 +125,6 @@
     .sesion {
       padding-right: 1rem;
     }
-
   }
 
   .contenedor-formulario {
@@ -132,8 +132,4 @@
     padding-bottom: 1.5rem;
     font-size: 2rem;
   }
-
-
-
-
 }

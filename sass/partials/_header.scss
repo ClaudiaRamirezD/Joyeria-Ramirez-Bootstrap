@@ -28,17 +28,6 @@ header {
     color: $color-turquesa;
   }
 
-  // #color-boton {
-  //     color: $color-azulclaro;
-
-  // }
-
-  // #color-boton :hover {
-  //     color: rgba(28, 48, 93, 1);
-  //     transition: .4s;
-
-  // }
-
   .top-header {
     display: flex;
     justify-content: space-between;
@@ -47,7 +36,10 @@ header {
 
   h1 {
     text-align: center;
+    font-weight: 700;
     font-size: 1.5rem;
+    color: rgb(17, 17, 78);
+    text-shadow: 3px 2px 6px #040436, 0 0 1em yellowgreen, 0 0 0.2em turquoise;
   }
 
   .menu {

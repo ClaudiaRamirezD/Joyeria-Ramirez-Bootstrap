@@ -30,6 +30,7 @@ footer {
     color: $color-turquesa;
     border-color: $color-turquesa;
     z-index: 1;
+    margin: 1.7rem;
 
     &:hover {
         color: darkblue;
@@ -42,34 +43,10 @@ footer {
     @include boton-primario;
 }
 
-
-// #color-letra-boton {
-//     color: $color-turquesa;
-// }
-
-// .btn-outline-success {
-//     color: $color-turquesa;
-//     border-color: $color-turquesa;
-// }
-
-// #boton-color {
-//     z-index: 1;
-// }
-
-// #boton-color:hover {
-//     background-color: $color-turquesa;
-//     border-color: $color-turquesa;
-// }
-
 .btn-outline-success:hover {
     color: rgb(4, 4, 54) ;
     background-color: $color-turquesa;
     border-color: $color-azulclaro;
 }
 
-
-
-// #color-letra-boton:hover {
-//     color: darkblue;
-// }
 
