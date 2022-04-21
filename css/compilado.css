@@ -296,3 +296,48 @@ footer {
   color: #040436;
   background-color: #41ead4;
   border-color: #89c2d9; }
+
+.contenedor-joyas {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  border: 1px solid cyan;
+  border-radius: 55px;
+  color: cyan;
+  overflow: hidden;
+  background-color: #00274f; }
+
+.imagen-joya {
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 150px; }
+
+.btn-carrito {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 1 rem 0;
+  border-radius: 10 px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #89c2d9;
+  font-weight: 700; }
+
+.btn-carrito:hover {
+  background-color: #41ead4; }
+
+.carrito {
+  border-radius: 150px;
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(3, 1fr); }
+
+h3 {
+  color: #89c2d9;
+  text-align: center; }
