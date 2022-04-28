@@ -143,6 +143,9 @@ a:hover {
   padding: 1rem;
   background-image: url(../images/pyramid.gif); }
 
+.boton-formulario {
+  cursor: pointer; }
+
 @media only screen and (min-width: 768px) {
   header .top-header {
     padding: 1rem 2rem; }
