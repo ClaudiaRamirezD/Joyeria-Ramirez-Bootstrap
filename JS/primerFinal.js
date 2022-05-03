@@ -1,9 +1,20 @@
-let anioNacimiento = prompt("Ingresa tu año de nacimiento");
+//ANTES DE OPERADOR AVANZADO
+
+/* let anioNacimiento = prompt("Ingresa tu año de nacimiento");
 if (anioNacimiento < 2004) {
   alert("Eres mayor de edad, disfruta tus compras! 🤑");
 } else if (anioNacimiento > 2004) {
   alert("Lo sentimos hasta que seas mayor de edad puedes entrar 😔");
 }
+ */
+
+//USANDO OPERADOR TERNARIO
+
+let anioNacimiento = prompt("Ingresa tu año de nacimiento");
+const acceso =
+  anioNacimiento > 2004
+    ? alert("Lo sentimos hasta que seas mayor de edad puedes entrar 😔")
+    : alert("Eres mayor de edad, disfruta tus compras! 🤑"); 
 
 let stock = ["anillos", "aretes", "collares", "pulseras", "otros"];
 
@@ -65,9 +76,27 @@ const opcionesJoyas = [
   { tipo: "pulsera", material: "bronce", precio: 4500 },
 ]
 
-//mostrar todas las joyas que sean de oro
+//DESTRUCTURACION DE ARRAY
+const materiales = ["oro", "plata", "zafiro", "rubi", "bronce"];
+const [a, b, c, d, e] = materiales;
 
-const joyasZafiro = opcionesJoyas.filter(material => joya.material === "oro");
+console.log(d);
+console.log(a);
+console.log(b);
+
+//SPREAD DEL ARRAY
+
+console.log(...materiales);
+
+const materialesObj = {
+  ...materiales
+}
+
+console.log(materialesObj);
+
+//mostrar todas las joyas que sean de Zafiro
+
+const joyasZafiro = opcionesJoyas.filter(material => joya.material === "zafiro");
 console.log(joyasZafiro);
 
 //motrar joyas de entre el precio de 3000 y 7000
