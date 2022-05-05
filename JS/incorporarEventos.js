@@ -32,6 +32,7 @@ function mostrarJoyas( ) {
 
     const btnCarrito = document.createElement("button");
     btnCarrito.className = "btn-carrito";
+    btnCarrito.id = "btnLibreria";
     btnCarrito.textContent = "Agregar a Carrito";
     btnCarrito.onclick = () => {
       agregarACarrito(anillo.id)
@@ -52,7 +53,7 @@ function agregarACarrito(id) {
   mostrarAnillosSeleccionados(anillosSeleccionados);
 }
 
-function mostrarAnillosSeleccionados(carrito) {
+/* function mostrarAnillosSeleccionados(carrito) {
   agregadoCarrito.innerHTML = "";
     carrito.forEach((anillo) => {
       const divJoya = document.createElement("div");
@@ -74,5 +75,18 @@ function mostrarAnillosSeleccionados(carrito) {
       agregadoCarrito.appendChild(divJoya);
     });
   
- 
-}
+} */
+
+//USANDO LIBRERIA PARA MENSAJE DE AGREGADO AL CARRITO
+
+const btnLibreria = document.getElementById("btnLibreria");
+
+btnLibreria.onclick = () => {
+  Swal.fire({
+    position: "top-center",
+    icon: "success",
+    title: "Se ha agregado al carrito! 🛒",
+    showConfirmButton: false,
+    timer: 1500,
+  });
+};
