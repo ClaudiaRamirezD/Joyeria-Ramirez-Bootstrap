@@ -1,25 +1,22 @@
 @import "./variables";
 
-
 .contenedor-formulario {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-content: center;
-    height: 57vh;
-    background-image: url(../images/moroccan-flower-dark.png);
-    color: $color-azulclaro;
-    font-size: 1rem;
-    margin-top: 2rem;
-
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  height: 57vh;
+  color: $color-azulclaro;
+  font-size: 1rem;
+  margin-top: 2rem;
 }
 
 .contenedor-legend {
-    text-align: center;
-    padding: 1rem;
-    background-image: url(../images/pyramid.gif);
+  text-align: center;
+  padding: 1rem;
+  background-image: url(../images/pyramid.gif);
 }
 
 .boton-formulario {
-    cursor: pointer;
+  cursor: pointer;
 }

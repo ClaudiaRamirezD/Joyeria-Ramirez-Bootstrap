@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="joyeria, artesanal, oro, plata, mexico, anillo, arete, pulsera, collar">
+    <meta name="description"
+        content="Joyeria-Ramirez busca brindar oportunidades a artesanos mexicanos y así preservar técnicas ancestrales y el valor de las mismas">
+    <title>Formulario</title>
+    <script src="https://kit.fontawesome.com/626aa2cec3.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png">
+    <link rel="manifest" href="../favicons/site.webmanifest">
+    <link rel="stylesheet" href="../css/compilado.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script src="../JS/app.js" defer></script>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="top-header">
+            <div class="telefono">
+                <a href="#telefono"><i class="fas fa-phone-alt"></i></a></i>
+            </div>
+            <div class="usuario-formulario">
+                <i class="fas fa-user"></i>
+                <em><a href="./formulario.html"> Iniciar sesión</a></em>
+                <i class="fas fa-shopping-cart"></i>
+                <em>Compras</em>
+            </div>
+        </div>
+        <h1>
+            Artesanías Koahtli
+        </h1>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./anillos.html">Anillos</a></li>
+                <li><a href="./aretes.html">Aretes</a></li>
+                <li><a href="./collares.html">Collares</a></li>
+                <li><a href="./pulseras.html">Pulseras</a></li>
+                <li><a href="./otros.html">Otros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="" class="formulario" id="formulario">
+            <h2>Informacion Personal</h2>
+
+            <!-- Grupo: Nombre -->
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="nombre" class="formulario__label">Nombre</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="John Doe">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener
+                    numeros, letras y guion bajo.</p>
+            </div>
+
+            <!-- Grupo: Contraseña -->
+            <div class="formulario__grupo" id="grupo__password">
+                <label for="password" class="formulario__label">Contraseña</label>
+                <div class="formulario__grupo-input">
+                    <input type="password" class="formulario__input" name="password" id="password">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
+            </div>
+
+
+            <!-- Grupo: Correo Electronico -->
+            <div class="formulario__grupo" id="grupo__correo">
+                <label for="correo" class="formulario__label">Correo Electrónico</label>
+                <div class="formulario__grupo-input">
+                    <input type="email" class="formulario__input correo" name="correo" id="correo"
+                        placeholder="correo@correo.com">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y
+                    guion bajo.</p>
+            </div>
+
+            <!-- Grupo: Teléfono -->
+            <div class="formulario__grupo" id="grupo__telefono">
+                <label for="telefono" class="formulario__label">Teléfono</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.
+                </p>
+            </div>
+
+            <!-- Grupo: Terminos y Condiciones -->
+            <div class="formulario__grupo" id="grupo__terminos">
+                <label class="formulario__label">
+                    <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                    Acepto los Terminos y Condiciones
+                </label>
+            </div>
+
+            <div class="formulario__mensaje" id="formulario__mensaje">
+                <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario
+                    correctamente. </p>
+            </div>
+
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+        </form>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="contactanos">
+                <div class="titulo-footer">
+                    <h4>Contáctanos</h4>
+                </div>
+                <div class="mail">
+                    <i class="fas fa-envelope"></i>
+                    <em>clau8812@gmail.com</em>
+                </div>
+                <div class="tel">
+                    <i class="fas fa-phone-alt" id="telefono"></i>
+                    <em>800 766 4563</em>
+                </div>
+                <div class="sociales">
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="contenedor-mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15055.430464342277!2d-99.13737981271971!3d19.375316919405314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe4e3b411333%3A0x90a4f64e61b3f6b4!2sLa%20Farfalla%20Pizzeria%20y%20Mas!5e0!3m2!1sen!2smx!4v1644047382577!5m2!1sen!2smx"
+                    width="80%" height="100vh" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Claudia Ramírez</h2>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="../JS/formulario2.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
