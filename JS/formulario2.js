@@ -19,14 +19,13 @@ const campos = {
 
 const validarFormulario = (e) => {
   switch (e.target.name) {
-  
     case "nombre":
       validarCampo(expresiones.nombre, e.target, "nombre");
       break;
     case "password":
       validarCampo(expresiones.password, e.target, "password");
       break;
-    
+
     case "correo":
       validarCampo(expresiones.correo, e.target, "correo");
       break;
@@ -74,8 +73,6 @@ const validarCampo = (expresion, input, campo) => {
   }
 };
 
-
-
 inputs.forEach((input) => {
   input.addEventListener("keyup", validarFormulario);
   input.addEventListener("blur", validarFormulario);
@@ -86,7 +83,6 @@ formulario.addEventListener("submit", (e) => {
 
   const terminos = document.getElementById("terminos");
   if (
-   
     campos.nombre &&
     campos.password &&
     campos.correo &&
