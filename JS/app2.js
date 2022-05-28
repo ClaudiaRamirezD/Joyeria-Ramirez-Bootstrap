@@ -136,7 +136,8 @@ function traerValidacion(correo) {
     const correoValidacion = inputCorreo.value;
   fetch(`https://api.eva.pingutil.com/email?email=${correoValidacion}`)
     .then((res) => res.json())
-    .then((data) => {
+      .then((data) => {
+        console.log(data);
         console.log(data.status);
         console.log(data.data.email_address);
         console.log(data.data.deliverable);
