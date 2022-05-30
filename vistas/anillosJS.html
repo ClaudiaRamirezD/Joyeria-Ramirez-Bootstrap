@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <script src="../JS/incorporarEventos.js" defer></script>
+    <script src="../JS/aretesJS.js" defer></script>
     <script src="https://kit.fontawesome.com/626aa2cec3.js" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
@@ -39,10 +39,10 @@
                             <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a class="nav-link" href="#">Anillos</a>
+                            <a class="nav-link" href="./anillosJS.html">Anillos</a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a class="nav-link" href="./aretes.html">Aretes</a>
+                            <a class="nav-link" href="./aretesJS.html">Aretes</a>
                         </li>
                         <li class="nav-item mx-auto">
                             <a class="nav-link" href="./collares.html">Collares</a>
@@ -56,7 +56,7 @@
                     </ul>
                     <div class="usuario">
                         <div class="sesion">
-                            <a href="./formulario.html"><i class="fas fa-user"></i></a>
+                            <a href="./formulario2.html"><i class="fas fa-user"></i></a>
                         </div>
                         <div class="compras">
                             <a href="#"><i class="fas fa-shopping-cart"></i></a>
@@ -71,24 +71,134 @@
             </div>
         </nav>
     </header>
-    <main class="vistas">
-        <section class="portafolio">
-            <div class="container fotos d-flex justify-content-center">
-                <div class="contenedor-joyas">
+        <main class="vistas">
+        <section class="">
+
+            <div class=" fotos  ">
+                <div class="row">
+                    <article class="col-md-4 mb-3 ">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <img src="../images/anillos.jpg" alt="Anillo" class="rounded-circle ">
+                                <h4 class="card-title">Anillo 1</h4>
+                                <p class="lead">$3900</p>
+                                <button class="btn btn-outline-info" data-joya="Anillo 1"
+                                    data-precio="3900">Agregar</button>
+
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <img src="../images/anillo1.jpg" alt="Anillo" class="rounded-circle ">
+                                <h4 class="card-title">Anillo 2</h4>
+                                <p class="lead">$4200</p>
+
+                                <button class="btn btn-outline-info " data-joya="Anillo 2"
+                                    data-precio="4200">Agregar</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <img src="../images/anillo6.jfif" alt="Anillo" class="rounded-circle ">
+                                <h4 class="card-title">Anillo 3</h4>
+                                <p class="lead">$5900</p>
+
+                                <button class="btn btn-outline-info " data-joya="Anillo 3"
+                                    data-precio="5900">Agregar</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <img src="../images/anillo3.jfif" alt="Anillo" class="rounded-circle ">
+                                <h4 class="card-title">Anillo 4</h4>
+                                <p class="lead">$6800</p>
+
+                                <button class="btn btn-outline-info " data-joya="Anillo 4"
+                                    data-precio="6800">Agregar</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <img src="../images/anillo5.jfif" alt="Anillo" class="rounded-circle ">
+                                <h4 class="card-title">Anillo 5</h4>
+                                <p class="lead">$7100</p>
+
+                                <button class="btn btn-outline-info" data-joya="Anillo 5"
+                                    data-precio="7100">Agregar</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <img src="../images/pulsera6.jfif" alt="Anillo" class="rounded-circle ">
+                                <h4 class="card-title">Pulsera 6</h4>
+                                <p class="lead">$4800</p>
+
+                                <button class="btn btn-outline-info " data-joya="Anillo 6"
+                                    data-precio="4800">Agregar</button>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-                
             </div>
-           
             <div class="container">
                 <div class="d-flex justify-content-center">
                     <button class=" btn-outline-success btn btn-outline-info"> <a href="../vistas/promociones.html"
                             id="color-letra-boton"> Promociones</a></button>
                 </div>
             </div>
-            
-             <div class="carrito">
-            </div>
         </section>
+        <section class="container mt-3">
+            <ul class="list-group" id="carrito2">
+
+
+            </ul>
+        </section>
+
+        <section id="footer" class="container mt-3">
+            <template id="templateFooter">
+                <div class="card">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <p class="lead mb-0">Total $ <span>1500</span></p>
+                        <button class="btn btn-outline-info">
+                            Finalizar Compra 🛒
+                        </button>
+                    </div>
+                </div>
+            </template>
+        </section>
+
+        <template id="template">
+            <li class="list-group-item bg-info">
+                <span class="badge bg-primary rounded-pill align-middle">12</span>
+                <span class="lead">Arete 1</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                    <p class="lead mb-0">Total $ <span>1500</span></p>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-danger">Quitar</button>
+                    <button class="btn btn-sm btn-success">Agregar</button>
+                </div>
+            </li>
+
+        </template>
     </main>
     <footer>
         <div class="contenedor-footer">

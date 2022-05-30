@@ -1,4 +1,4 @@
-const anillos = [
+let anillos = [
   { price: 4300, id: 1, name: "Anillo 1", img: "../images/anillos.jpg" },
   { price: 3100, id: 2, name: "Anillo 2", img: "../images/anillo1.jpg" },
   { price: 3200, id: 3, name: "Anillo 3", img: "../images/anillo6.jfif" },
@@ -77,16 +77,3 @@ function agregarACarrito(id) {
   
 } */
 
-//USANDO LIBRERIA PARA MENSAJE DE AGREGADO AL CARRITO
-
-const btnLibreria = document.getElementById("btnLibreria");
-
-btnLibreria.onclick = () => {
-  Swal.fire({
-    position: "top-center",
-    icon: "success",
-    title: "Se ha agregado al carrito! 🛒",
-    showConfirmButton: false,
-    timer: 1500,
-  });
-};

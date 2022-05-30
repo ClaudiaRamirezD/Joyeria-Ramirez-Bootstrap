@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="../JS/aretesJS.js" defer></script>
     <script src="https://kit.fontawesome.com/626aa2cec3.js" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
@@ -38,10 +39,10 @@
                             <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a class="nav-link" href="./anillos.html">Anillos</a>
+                            <a class="nav-link" href="./anillosJS.html">Anillos</a>
                         </li>
                         <li class="nav-item mx-auto">
-                            <a class="nav-link" href="./aretes.html">Aretes</a>
+                            <a class="nav-link" href="./aretesJS.html">Aretes</a>
                         </li>
                         <li class="nav-item mx-auto">
                             <a class="nav-link" href="./collares.html">Collares</a>
@@ -55,7 +56,7 @@
                     </ul>
                     <div class="usuario">
                         <div class="sesion">
-                            <a href="./formulario.html"><i class="fas fa-user"></i></a>
+                            <a href="./formulario2.html"><i class="fas fa-user"></i></a>
                         </div>
                         <div class="compras">
                             <a href="#"><i class="fas fa-shopping-cart"></i></a>
@@ -71,42 +72,88 @@
         </nav>
     </header>
     <main class="vistas">
-        <section class="portafolio">
-            <div class="container">
+        <section class="">
 
-            </div>
-            <div class="container fotos d-flex justify-content-center">
+            <div class=" fotos  ">
                 <div class="row">
-                    <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-                        <a href="#">
-                            <img src="../images/collar1.jpg" alt="collar" class="rounded-circle ">
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-                        <a href="#">
-                            <img src="../images/collar2.jpg" alt="collar" class="rounded-circle">
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-                        <a href="#">
-                            <img src="../images/collar3.jpg" alt="collar" class="rounded-circle">
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-                        <a href="#">
-                            <img src="../images/collar5.jfif" alt="collar" class="rounded-circle">
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-                        <a href="#">
-                            <img src="../images/collar4.jfif" alt="collar" class="rounded-circle">
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
-                        <a href="#">
-                            <img src="../images/collar6.jfif" alt="collar" class="rounded-circle">
-                        </a>
-                    </div>
+                    <article class="col-md-4 mb-3 ">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <img src="../images/collar1.jpg" alt="Collar" class="rounded-circle ">
+                                <h4 class="card-title">Collar 1</h4>
+                                <p class="lead">$4900</p>
+                                <button class="btn btn-outline-info" data-joya="Collar 1"
+                                    data-precio="4900">Agregar</button>
+
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <img src="../images/collar2.jpg" alt="Collar" class="rounded-circle ">
+                                <h4 class="card-title">Collar 2</h4>
+                                <p class="lead">$5600</p>
+
+                                <button class="btn btn-outline-info " data-joya="Collar 2"
+                                    data-precio="5600">Agregar</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <img src="../images/collar3.jpg" alt="Collar" class="rounded-circle ">
+                                <h4 class="card-title">Collar 3</h4>
+                                <p class="lead">$4700</p>
+
+                                <button class="btn btn-outline-info " data-joya="Collar 3"
+                                    data-precio="4700">Agregar</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <img src="../images/collar5.jfif" alt="Collar" class="rounded-circle ">
+                                <h4 class="card-title">Collar 4</h4>
+                                <p class="lead">$6800</p>
+
+                                <button class="btn btn-outline-info " data-joya="Collar 4"
+                                    data-precio="6800">Agregar</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <img src="../images/collar5.jfif" alt="Collar" class="rounded-circle ">
+                                <h4 class="card-title">Collar 5</h4>
+                                <p class="lead">$7100</p>
+
+                                <button class="btn btn-outline-info" data-joya="Collar 5"
+                                    data-precio="7100">Agregar</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <img src="../images/collar6.jfif" alt="Collar" class="rounded-circle ">
+                                <h4 class="card-title">Collar 6</h4>
+                                <p class="lead">$4900</p>
+
+                                <button class="btn btn-outline-info " data-joya="Collar 6"
+                                    data-precio="4900">Agregar</button>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
             <div class="container">
@@ -116,6 +163,42 @@
                 </div>
             </div>
         </section>
+        <section class="container mt-3">
+            <ul class="list-group" id="carrito2">
+
+
+            </ul>
+        </section>
+
+        <section id="footer" class="container mt-3">
+            <template id="templateFooter">
+                <div class="card">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <p class="lead mb-0">Total $ <span>1500</span></p>
+                        <button class="btn btn-outline-info">
+                            Finalizar Compra 🛒
+                        </button>
+                    </div>
+                </div>
+            </template>
+        </section>
+
+        <template id="template">
+            <li class="list-group-item bg-info">
+                <span class="badge bg-primary rounded-pill align-middle">12</span>
+                <span class="lead">Arete 1</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                    <p class="lead mb-0">Total $ <span>1500</span></p>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-danger">Quitar</button>
+                    <button class="btn btn-sm btn-success">Agregar</button>
+                </div>
+            </li>
+
+        </template>
     </main>
     <footer>
         <div class="contenedor-footer">

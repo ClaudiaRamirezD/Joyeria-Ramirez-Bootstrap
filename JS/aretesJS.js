@@ -6,7 +6,7 @@ const fragment = document.createDocumentFragment();
 
 document.addEventListener('click', (e) => {
     // console.log(e.target.matches(".card .btn-outline-primary"));
-    if (e.target.matches(".card .btn-outline-primary")) {
+    if (e.target.matches(".card .btn-outline-info")) {
         console.log("Ejecutar agregar al carro");
         agregarAlCarrito(e)
     }
@@ -65,7 +65,22 @@ const pintarCarrito = () => {
         fragment.appendChild(clone);
     })
     carrito2.appendChild(fragment);
-}
+    pintarFooter();
+};
+
+const pintarFooter = () => {
+  console.log("pintar footer");
+  footer.textContent = "";
+
+  const total = carritoObjeto.reduce(
+    (acc, current) => acc + current.cantidad * current.precio,
+    0
+  );
+    const clone = templateFooter.content.cloneNode(true);
+    clone.querySelector("span").textContent = total;
+
+    footer.appendChild(clone);
+}; 
 
 const btnAumentar = (e) => {
     console.log("me diste click", e.target.dataset.id);
@@ -88,8 +103,9 @@ const btnDisminuir = (e) => {
                 item.cantidad--
                 if (item.cantidad === 0) return
                 return item
-          }
-        } else { return item}
-    })
+            }
+        } else { return item }
+    });
+    console.log(carritoObjeto);  
     pintarCarrito();
-}
+};

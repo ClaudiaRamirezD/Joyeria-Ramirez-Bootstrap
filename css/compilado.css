@@ -298,6 +298,7 @@ a:hover {
   display: block;
 }
 
+
 /* ----- -----  Estilos para Validacion ----- ----- */
 .formulario__grupo-correcto .formulario__validacion-estado {
   color: #1ed12d;
@@ -317,7 +318,7 @@ a:hover {
   border: 3px solid #bb2929;
 }
 
-/* background-image: url(../images/moroccan-flower-dark.png); */
+
 
 
 /* background-image: url(../images/pyramid.gif);  */
@@ -438,6 +439,8 @@ a:hover {
     height: 280px;
     padding: 1.5rem;
   }
+
+  
 
   .contenedor-footer {
     display: grid;
